@@ -8,7 +8,7 @@ spec = Gem::Specification.new do |spec|
   spec.email = 'scott@thes3cookbook.com'
   spec.homepage = 'http://thes3cookbook.com'
   
-  spec.executables = ['bin/s3sh_as', 'bin/s3lib']
+  # spec.executables = ['bin/s3sh_as', 'bin/s3lib']
   # spec.executables << 's3sh_as'
   # spec.executables << 's3lib'
   spec.test_files = Dir['test/*.rb']  
