@@ -17,5 +17,5 @@ spec = Gem::Specification.new do |spec|
   
   spec.add_dependency('rest-open-uri')
   
-  spec.version = '0.1.8'
+  spec.version = '0.1.9'
 end
