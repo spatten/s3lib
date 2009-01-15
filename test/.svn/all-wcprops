@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/93626/external/authors/books/9780596519445/current/code/s3_code/library/test
+END
+test_canonical_resource.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/test_canonical_resource.rb
+END
+acl_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/93626/external/authors/books/9780596519445/current/code/s3_code/library/test/acl_test.rb
+END
+s3_authenticator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/s3_authenticator_test.rb
+END
+canonical_string_tests.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/canonical_string_tests.rb
+END
+test_amazon_headers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/test_amazon_headers.rb
+END
+first_test_private.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/first_test_private.rb
+END
+full_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/full_test.rb
+END
+first_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/test/first_test.rb
+END

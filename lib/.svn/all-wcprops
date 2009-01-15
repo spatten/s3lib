@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/108505/external/authors/books/9780596519445/current/code/s3_code/library/lib
+END
+bucket_find.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/bucket_find.rb
+END
+bucket.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/102291/external/authors/books/9780596519445/current/code/s3_code/library/lib/bucket.rb
+END
+s3_authenticator_dev.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/s3_authenticator_dev.rb
+END
+s3_authenticator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/104912/external/authors/books/9780596519445/current/code/s3_code/library/lib/s3_authenticator.rb
+END
+acl_access.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/96047/external/authors/books/9780596519445/current/code/s3_code/library/lib/acl_access.rb
+END
+s3_errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/95078/external/authors/books/9780596519445/current/code/s3_code/library/lib/s3_errors.rb
+END
+bucket_before_refactoring.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/bucket_before_refactoring.rb
+END
+object_with_acl_mixin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/96047/external/authors/books/9780596519445/current/code/s3_code/library/lib/object_with_acl_mixin.rb
+END
+object_from_bucket_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/object_from_bucket_test.rb
+END
+put_with_curl_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/put_with_curl_test.rb
+END
+bucket_with_acl_mixin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/96047/external/authors/books/9780596519445/current/code/s3_code/library/lib/bucket_with_acl_mixin.rb
+END
+object_take1.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/object_take1.rb
+END
+error_handling.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/error_handling.rb
+END
+acl_creating_a_grant_recipe.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/95869/external/authors/books/9780596519445/current/code/s3_code/library/lib/acl_creating_a_grant_recipe.rb
+END
+acl_reading_acl_recipe.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/95078/external/authors/books/9780596519445/current/code/s3_code/library/lib/acl_reading_acl_recipe.rb
+END
+service_dev.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/102294/external/authors/books/9780596519445/current/code/s3_code/library/lib/service_dev.rb
+END
+acl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/98711/external/authors/books/9780596519445/current/code/s3_code/library/lib/acl.rb
+END
+bucket_create.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/bucket_create.rb
+END
+service.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/102294/external/authors/books/9780596519445/current/code/s3_code/library/lib/service.rb
+END
+object.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/108505/external/authors/books/9780596519445/current/code/s3_code/library/lib/object.rb
+END
+acl_refreshing_cached_grants_recipe.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/95082/external/authors/books/9780596519445/current/code/s3_code/library/lib/acl_refreshing_cached_grants_recipe.rb
+END
+s3_authenticator_dev_private.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/92584/external/authors/books/9780596519445/current/code/s3_code/library/lib/s3_authenticator_dev_private.rb
+END
+grant_creating_a_grant_recipe.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/98711/external/authors/books/9780596519445/current/code/s3_code/library/lib/grant_creating_a_grant_recipe.rb
+END
+grant_reading_acl_recipe.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/98711/external/authors/books/9780596519445/current/code/s3_code/library/lib/grant_reading_acl_recipe.rb
+END
+s3_lib_with_mixin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/96047/external/authors/books/9780596519445/current/code/s3_code/library/lib/s3_lib_with_mixin.rb
+END
+grant.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/98711/external/authors/books/9780596519445/current/code/s3_code/library/lib/grant.rb
+END
+s3_lib.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/102291/external/authors/books/9780596519445/current/code/s3_code/library/lib/s3_lib.rb
+END
