@@ -1,5 +1,5 @@
 require 'test/unit'
-require File.join(File.dirname(__FILE__), '../s3_authenticator')
+require File.join(File.dirname(__FILE__), '../lib/s3_authenticator')
 
 # Make private methods and attributes public so that you can test them
 module S3Lib

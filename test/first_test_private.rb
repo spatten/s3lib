@@ -20,7 +20,7 @@ module S3Lib
 end
 
 require 'test/unit'
-require File.join(File.dirname(__FILE__), 's3_authenticator_dev_private')
+require File.join(File.dirname(__FILE__), '../lib/s3_authenticator_dev_private')
 
 class S3AuthenticatorTest < Test::Unit::TestCase
   
