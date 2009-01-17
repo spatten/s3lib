@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
+require 'rubygems'
 require 'yaml'
 
 # Set the S3 keys to the right account if the account name was given in the command line

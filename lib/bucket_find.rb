@@ -1,5 +1,5 @@
 # s3_bucket.rb
-require File.join(File.dirname(__FILE__), '..', 's3_authenticator')
+require File.join(File.dirname(__FILE__), 's3_authenticator')
 require 'rexml/document'
 
 module S3Lib
