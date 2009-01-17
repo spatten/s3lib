@@ -10,7 +10,7 @@ class S3AclTest < Test::Unit::TestCase
   
   def setup
     @bucket = Bucket.find('spatten_test_bucket')
-    @object = @bucket['shoes']
+    @object = @bucket['copy_test']
     @bucket_acl = Acl.new('spatten_test_bucket')
   end
   

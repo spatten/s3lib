@@ -1,5 +1,5 @@
 require 'test/unit'
-require File.join(File.dirname(__FILE__), '../lib/s3_authenticator_dev')
+require File.join(File.dirname(__FILE__), '../lib/s3_authenticator')
 
 class S3AuthenticatorCanonicalResourceTest < Test::Unit::TestCase
   

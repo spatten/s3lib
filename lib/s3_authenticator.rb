@@ -66,8 +66,6 @@ module S3Lib
       "#{@verb.to_s.upcase}\n#{canonicalized_headers}#{canonicalized_resource}"
     end  
   
-    private
-  
     def get_bucket_name
       @bucket = ""
       return unless @headers.has_key?('host')
