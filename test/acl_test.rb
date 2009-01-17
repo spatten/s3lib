@@ -1,5 +1,5 @@
 require 'test/unit'
-require File.join(File.dirname(__FILE__), '..', 'lib', 's3_lib')
+require File.join(File.dirname(__FILE__), '..', 'lib', 's3lib')
 include S3Lib
 
 class S3AclTest < Test::Unit::TestCase

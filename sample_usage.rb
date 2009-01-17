@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 # require 'rubygems'
-# require 's3_lib'
-require File.join(File.dirname(__FILE__), 'lib/s3_lib')
+# require 's3lib'
+require File.join(File.dirname(__FILE__), 'lib/s3lib')
 include S3Lib
 
 bucket_name = 'spattens_first_bucket'

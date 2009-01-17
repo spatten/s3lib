@@ -12,4 +12,4 @@ unless ARGV.empty?
   end
 end
 
-exec("irb -r s3_lib")
+exec("irb -r s3lib")

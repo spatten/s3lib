@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 's3_lib'
+require 's3lib'
 
 module S3Lib
   
