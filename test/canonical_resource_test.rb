@@ -4,6 +4,7 @@ require File.join(File.dirname(__FILE__), '../lib/s3_authenticator')
 class S3AuthenticatorCanonicalResourceTest < Test::Unit::TestCase
   
   def setup
+    S3Lib::AuthenticatedRequest.test_mode
     @s3_test = S3Lib::AuthenticatedRequest.new
   end
 

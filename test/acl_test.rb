@@ -2,8 +2,9 @@ require 'test/unit'
 require File.join(File.dirname(__FILE__), '..', 'lib', 's3lib')
 include S3Lib
 
+
 class S3AclTest < Test::Unit::TestCase
-  
+    
   SPATTEN_CANONICAL_ID = '9d92623ba6dd9d7cc06a7b8bcc46381e7c646f72d769214012f7e91b50c0de0f'
   SPATTEN_DESIGN_CANONICAL_ID = '2f29caa19cd40477cf8a840b6dc473463cbda95b7dc81a8d72118a42733a7661'
   SPATTEN_EMAIL = 'scott@spattendesign.com'

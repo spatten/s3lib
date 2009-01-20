@@ -4,11 +4,12 @@ require File.join(File.dirname(__FILE__), '../lib/s3_authenticator')
 # Make private methods and attributes public so that you can test them
 module S3Lib
   class AuthenticatedRequest
+    
+    @@test_mode = false
   
     attr_reader :bucket, :headers  
   
     def initialize()
-    
     end
   
     def public_canonicalized_resource
@@ -34,9 +35,33 @@ module S3Lib
     def public_authorization_string
       authorization_string
     end
-  
+    
+    def self.test_mode
+      @@test_mode = true
+    end
+    
+    def make_authenticated_request(verb, request_path, headers = {})
+      @verb = verb
+      @request_path = request_path.gsub(/^\//,'') # Strip off the leading '/'
+    
+      @amazon_id = ENV['AMAZON_ACCESS_KEY_ID']
+      @amazon_secret = ENV['AMAZON_SECRET_ACCESS_KEY']    
+    
+      @headers = headers.downcase_keys.join_values    
+      get_bucket_list_params          
+      get_bucket_name
+      fix_date
+      
+      if @@test_mode
+        test_open(uri_with_bucket_list_params, @headers.merge(:method => @verb, 'Authorization' => authorization_string))
+      else
+        req = open(uri_with_bucket_list_params, @headers.merge(:method => @verb, 'Authorization' => authorization_string))
+      end
+    end
+    
+
     # Over-ride RestOpenURI#open
-    def open(uri, headers)
+    def test_open(uri, headers)
       {:uri => uri, :headers => headers}
     end
   
@@ -51,7 +76,9 @@ class S3AuthenticatorTest < Test::Unit::TestCase
     # See http://developer.amazonwebservices.com/connect/entry.jspa?externalID=123&categoryID=48
     ENV['AMAZON_ACCESS_KEY_ID'] = '0PN6J17HBGXHT7JJ3X82'
     ENV['AMAZON_SECRET_ACCESS_KEY'] = 'uV3F3YluFJax1cknvbcGwgjvx4QpvB+leU8dUj2o'
+    S3Lib::AuthenticatedRequest.test_mode    
     @s3_test = S3Lib::AuthenticatedRequest.new
+    
   end
   
   def test_http_verb_is_uppercase
