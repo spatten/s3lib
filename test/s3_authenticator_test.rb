@@ -58,7 +58,6 @@ module S3Lib
         req = open(uri_with_bucket_list_params, @headers.merge(:method => @verb, 'Authorization' => authorization_string))
       end
     end
-    
 
     # Over-ride RestOpenURI#open
     def test_open(uri, headers)
