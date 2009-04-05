@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{s3lib}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Patten"]
@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.executables = ["s3lib", "s3sh_as"]
   s.files = [
     "Rakefile",
+    "VERSION.yml",
     "bin/s3lib",
     "bin/s3sh_as",
     "lib/acl.rb",
